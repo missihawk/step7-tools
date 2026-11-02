@@ -1,0 +1,7 @@
+services:
+    dev:
+        image: node:26-slim
+        working_dir: /app
+        volumes:
+            - .:/app
+        command: sleep infinity
